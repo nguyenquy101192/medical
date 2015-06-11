@@ -1,0 +1,127 @@
+/*
+Theme Name: Medical
+Author: QuyNH.
+Description: Simple shopping website with Wordpress.
+Version: 1.0.
+*/
+body {
+    width: 1180px;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0 auto;
+    padding: 0;
+}
+
+input, button, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/*
+header
+*/
+header {
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+}
+.header-logo {
+    float: left;
+    height: 100%;
+    line-height: 75px;
+    clear: right;
+}
+.header-top-menu {
+    float: right;
+    width: 707px;
+    height: 100%;
+    line-height: 75px;
+}
+.header-top-menu ul {
+    display: inline-block;
+    list-style: none;
+}
+.header-top-menu ul li {
+    float: left;
+    margin-right: 24px;
+}
+.header-top-menu ul li:last-of-type {
+    margin-right: 0;
+}
+
+/*
+search box
+*/
+.search-box {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+.search-box .search-content {
+    float: left;
+    width: 798px;
+    line-height: 48px;
+    text-align: center;
+    background: #434a54;
+    border: 1px solid #434a54;
+    clear: right;
+}
+.search-content input {
+    width: 765px;
+    height: 30px;
+    border: none;
+}
+.search-content input:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.search-content button[type=submit] {
+    background: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    border-image: none;
+    border: none;
+    padding-left: 2px;
+}
+.search-box .categories-list {
+    float: left;
+    width: 380px;
+    line-height: 50px;
+    text-align: center;
+    background: #43b77a;
+    color: #fff;
+}
+.categories-list select {
+    border: none;
+    padding: 16px 0;
+    width: 100%;
+    background: #43b77a;
+}
+.categories-list select:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.slideshow-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 460px;
+    border: 1px solid #bbb;
+    overflow: hidden;
+}
+.slideshow-box .slider-viewport {
+    z-index: 10;
+}
+.slider-viewport .slide-image {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
